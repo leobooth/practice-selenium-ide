@@ -22,13 +22,16 @@ import org.openqa.selenium.Keys;
 import java.util.*;
 import java.net.MalformedURLException;
 import java.net.URL;
+import testSettings.BrowserSettings;
+import testSettings.BrowserSettings.BrowserName;
+
 public class GoogleSearch1Test {
   private WebDriver driver;
   private Map<String, Object> vars;
   JavascriptExecutor js;
   @Before
   public void setUp() {
-    driver = new ChromeDriver();
+    driver = BrowserSettings.setDriver(BrowserName.CHROME);
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
   }
