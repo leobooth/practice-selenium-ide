@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c268b2b-2b99-407e-b7b3-706a5a6bc22e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/practice-selenium-ide.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice-selenium-ide.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leonlab/testSettings/BrowserSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leonlab/InitialTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/leonlab/BrowserSettings$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/leonlab/BrowserSettings$BrowserName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/leonlab/BrowserSettings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/leonlab/InitialTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dZPEHqbokoik1GR6B79D5VWR6A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.leonlab" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="InitialTest.openURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice-selenium-ide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leonlab.testSettings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leonlab" />
+      <option name="MAIN_CLASS_NAME" value="com.leonlab.InitialTest" />
+      <option name="METHOD_NAME" value="openURL" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.InitialTest.openURL" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c268b2b-2b99-407e-b7b3-706a5a6bc22e" name="Default Changelist" comment="" />
+      <created>1592629528514</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592629528514</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="246" y="62" key="#Project_Structure" timestamp="1592632544111">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="246" y="62" key="#Project_Structure/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592632544110" />
+    <state x="530" y="292" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592678436600">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="530" y="292" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592678436600" />
+    <state x="933" y="187" key="FileChooserDialogImpl" timestamp="1592634102088">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="933" y="187" key="FileChooserDialogImpl/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592634102088" />
+    <state width="1036" height="214" key="GridCell.Tab.0.bottom" timestamp="1592670862283">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1036" height="214" key="GridCell.Tab.0.bottom/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592670862283" />
+    <state width="1036" height="214" key="GridCell.Tab.0.center" timestamp="1592670862282">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1036" height="214" key="GridCell.Tab.0.center/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592670862282" />
+    <state width="1036" height="214" key="GridCell.Tab.0.left" timestamp="1592670862282">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1036" height="214" key="GridCell.Tab.0.left/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592670862282" />
+    <state width="1036" height="214" key="GridCell.Tab.0.right" timestamp="1592670862282">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1036" height="214" key="GridCell.Tab.0.right/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592670862282" />
+    <state x="428" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1592678369452">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="428" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592678369452" />
+  </component>
+</project>
