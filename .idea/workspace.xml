@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c268b2b-2b99-407e-b7b3-706a5a6bc22e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/side/google search.side" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/tests/GoogleSearch1Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/InitialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/InitialTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/side/google search.side" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/side/google search.side" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +29,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1dZPEHqbokoik1GR6B79D5VWR6A" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
@@ -53,10 +55,12 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\SideProjects\SeleniumPractice\Projects\practice-selenium-ide\src\test\java\tests" />
+      <recent name="D:\SideProjects\SeleniumPractice\Projects\practice-selenium-ide\src\main" />
+      <recent name="D:\SideProjects\SeleniumPractice\Projects\practice-selenium-ide\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GoogleSearch1Test">
-    <configuration name="GoogleSearch1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GoogleSearch1Test.googleSearch1">
+    <configuration name="GoogleSearch1Test.googleSearch1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice-selenium-ide" />
       <extension name="coverage">
         <pattern>
@@ -66,7 +70,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.GoogleSearch1Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="googleSearch1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,9 +92,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.InitialTest.openURL" />
+      <item itemvalue="JUnit.GoogleSearch1Test.googleSearch1" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GoogleSearch1Test" />
+        <item itemvalue="JUnit.GoogleSearch1Test.googleSearch1" />
         <item itemvalue="JUnit.InitialTest.openURL" />
       </list>
     </recent_temporary>
@@ -118,11 +127,18 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="246" y="62" key="#Project_Structure" timestamp="1592632544111">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="246" y="62" key="#Project_Structure/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592632544110" />
+    <state x="318" y="98" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592706440833">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="318" y="98" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592706440833" />
     <state x="463" y="212" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1592702726210">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -151,22 +167,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="933" y="187" key="FileChooserDialogImpl/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592634102088" />
-    <state width="1291" height="213" key="GridCell.Tab.0.bottom" timestamp="1592706025768">
+    <state width="1291" height="213" key="GridCell.Tab.0.bottom" timestamp="1592706464344">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1291" height="213" key="GridCell.Tab.0.bottom/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592706025768" />
-    <state width="1291" height="213" key="GridCell.Tab.0.center" timestamp="1592706025760">
+    <state width="1291" height="213" key="GridCell.Tab.0.bottom/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592706464344" />
+    <state width="1291" height="213" key="GridCell.Tab.0.center" timestamp="1592706464344">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1291" height="213" key="GridCell.Tab.0.center/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592706025760" />
-    <state width="1291" height="213" key="GridCell.Tab.0.left" timestamp="1592706025759">
+    <state width="1291" height="213" key="GridCell.Tab.0.center/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592706464344" />
+    <state width="1291" height="213" key="GridCell.Tab.0.left" timestamp="1592706464343">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1291" height="213" key="GridCell.Tab.0.left/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592706025759" />
-    <state width="1291" height="213" key="GridCell.Tab.0.right" timestamp="1592706025760">
+    <state width="1291" height="213" key="GridCell.Tab.0.left/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592706464343" />
+    <state width="1291" height="213" key="GridCell.Tab.0.right" timestamp="1592706464344">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1291" height="213" key="GridCell.Tab.0.right/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592706025760" />
+    <state width="1291" height="213" key="GridCell.Tab.0.right/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592706464344" />
     <state x="548" y="214" key="chooseDestDirectoryDialog" timestamp="1592702721074">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
