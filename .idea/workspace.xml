@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c268b2b-2b99-407e-b7b3-706a5a6bc22e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/leonlab/BrowserSettings$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/leonlab/BrowserSettings$BrowserName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/leonlab/BrowserSettings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/leonlab/InitialTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/leonlab/InitialTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leonlab/testSettings/BrowserSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testSettings/BrowserSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leonlab/InitialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/InitialTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -49,6 +46,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tests" />
+      <recent name="testSettings" />
       <recent name="com.leonlab" />
     </key>
   </component>
@@ -57,12 +56,12 @@
       <module name="practice-selenium-ide" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leonlab.testSettings.*" />
+          <option name="PATTERN" value="testSettings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.leonlab" />
-      <option name="MAIN_CLASS_NAME" value="com.leonlab.InitialTest" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.InitialTest" />
       <option name="METHOD_NAME" value="openURL" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -93,30 +92,46 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="246" y="62" key="#Project_Structure/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592632544110" />
-    <state x="530" y="292" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592678436600">
+    <state x="463" y="212" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1592702726210">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="530" y="292" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592678436600" />
+    <state x="463" y="212" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592702726210" />
+    <state x="548" y="359" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592702778351">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="548" y="359" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592702778351" />
+    <state x="530" y="292" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592702840306">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="530" y="292" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592702840306" />
+    <state x="771" y="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1592702768921">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="771" y="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592702768921" />
     <state x="933" y="187" key="FileChooserDialogImpl" timestamp="1592634102088">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="933" y="187" key="FileChooserDialogImpl/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592634102088" />
-    <state width="1036" height="214" key="GridCell.Tab.0.bottom" timestamp="1592670862283">
+    <state width="883" height="214" key="GridCell.Tab.0.bottom" timestamp="1592702928571">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1036" height="214" key="GridCell.Tab.0.bottom/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592670862283" />
-    <state width="1036" height="214" key="GridCell.Tab.0.center" timestamp="1592670862282">
+    <state width="883" height="214" key="GridCell.Tab.0.bottom/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592702928571" />
+    <state width="883" height="214" key="GridCell.Tab.0.center" timestamp="1592702928571">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1036" height="214" key="GridCell.Tab.0.center/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592670862282" />
-    <state width="1036" height="214" key="GridCell.Tab.0.left" timestamp="1592670862282">
+    <state width="883" height="214" key="GridCell.Tab.0.center/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592702928571" />
+    <state width="883" height="214" key="GridCell.Tab.0.left" timestamp="1592702928571">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1036" height="214" key="GridCell.Tab.0.left/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592670862282" />
-    <state width="1036" height="214" key="GridCell.Tab.0.right" timestamp="1592670862282">
+    <state width="883" height="214" key="GridCell.Tab.0.left/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592702928571" />
+    <state width="883" height="214" key="GridCell.Tab.0.right" timestamp="1592702928571">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1036" height="214" key="GridCell.Tab.0.right/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592670862282" />
+    <state width="883" height="214" key="GridCell.Tab.0.right/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592702928571" />
+    <state x="548" y="214" key="chooseDestDirectoryDialog" timestamp="1592702721074">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="548" y="214" key="chooseDestDirectoryDialog/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592702721074" />
     <state x="428" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1592678369452">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

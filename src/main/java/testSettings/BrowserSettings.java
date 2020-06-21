@@ -1,4 +1,4 @@
-package com.leonlab.testSettings;
+package testSettings;
 
 import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.WebDriver;

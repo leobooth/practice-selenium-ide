@@ -1,7 +1,7 @@
-package com.leonlab;
+package tests;
 
-import com.leonlab.testSettings.BrowserSettings;
-import com.leonlab.testSettings.BrowserSettings.BrowserName;
+import testSettings.BrowserSettings;
+import testSettings.BrowserSettings.BrowserName;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 
