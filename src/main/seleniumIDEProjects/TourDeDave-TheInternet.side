@@ -5,7 +5,7 @@
   "url": "https://the-internet.herokuapp.com",
   "tests": [{
     "id": "4d47ef9d-1bea-45c6-928f-1e93abf306de",
-    "name": "AddRemoveElements",
+    "name": "AddRemoveAnElement",
     "commands": [{
       "id": "aa580878-d26f-4b5b-9968-6ffde08ca907",
       "comment": "",
@@ -78,6 +78,92 @@
         ["xpath=//div[@id='elements']/button", "xpath:idRelative"],
         ["xpath=//div[4]/div/div/div/button", "xpath:position"],
         ["xpath=//button[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2fa06cae-4e6b-452b-a547-daf9dd7c9208",
+    "name": "Checkboxes_CheckUncheckACheckbox",
+    "commands": [{
+      "id": "bad361bf-3e41-4651-8cbb-2d419fd21c89",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18f3f866-0498-4071-8fe5-c08de9d79160",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Checkboxes",
+      "targets": [
+        ["linkText=Checkboxes", "linkText"],
+        ["css=li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Checkboxes')]", "xpath:link"],
+        ["xpath=//div[@id='content']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/checkboxes')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Checkboxes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eef92c09-9431-4454-91df-74caef67f7dc",
+      "comment": "",
+      "command": "verifyNotChecked",
+      "target": "css=input:nth-child(1)",
+      "targets": [
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//form[@id='checkboxes']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c0284a3-4d6e-4a0f-a35b-999b33245867",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(1)",
+      "targets": [
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//form[@id='checkboxes']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "768bcbec-9f94-4e20-b8fd-ac689f7742f8",
+      "comment": "",
+      "command": "assertChecked",
+      "target": "css=input:nth-child(1)",
+      "targets": [
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//form[@id='checkboxes']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ce09fab-b477-462f-ac86-126169512f89",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(1)",
+      "targets": [
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//form[@id='checkboxes']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d8db09d-6517-4be9-9bcc-a45dd739cd99",
+      "comment": "",
+      "command": "assertNotChecked",
+      "target": "css=input:nth-child(1)",
+      "targets": [
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//form[@id='checkboxes']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
       ],
       "value": ""
     }]

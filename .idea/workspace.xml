@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c268b2b-2b99-407e-b7b3-706a5a6bc22e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/side/TourDeDave-TheInternet.side" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/practice-selenium-ide.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/practice-selenium-ide.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumIDE/CheckboxesCheckUncheckACheckboxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/side/google search.side" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/GoogleSearch1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddRemoveElementsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/InitialTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/seleniumIDEProjects/TourDeDave-TheInternet.side" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/seleniumIDEProjects/TourDeDave-TheInternet.side" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,22 +179,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="933" y="187" key="FileChooserDialogImpl/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592886867160" />
-    <state width="1384" height="314" key="GridCell.Tab.0.bottom" timestamp="1592895117830">
+    <state width="1384" height="313" key="GridCell.Tab.0.bottom" timestamp="1592895856803">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1384" height="314" key="GridCell.Tab.0.bottom/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592895117830" />
-    <state width="1384" height="314" key="GridCell.Tab.0.center" timestamp="1592895117830">
+    <state width="1384" height="313" key="GridCell.Tab.0.bottom/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592895856803" />
+    <state width="1384" height="313" key="GridCell.Tab.0.center" timestamp="1592895856803">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1384" height="314" key="GridCell.Tab.0.center/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592895117830" />
-    <state width="1384" height="314" key="GridCell.Tab.0.left" timestamp="1592895117830">
+    <state width="1384" height="313" key="GridCell.Tab.0.center/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592895856803" />
+    <state width="1384" height="313" key="GridCell.Tab.0.left" timestamp="1592895856803">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1384" height="314" key="GridCell.Tab.0.left/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592895117830" />
-    <state width="1384" height="314" key="GridCell.Tab.0.right" timestamp="1592895117830">
+    <state width="1384" height="313" key="GridCell.Tab.0.left/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592895856803" />
+    <state width="1384" height="313" key="GridCell.Tab.0.right" timestamp="1592895856803">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1384" height="314" key="GridCell.Tab.0.right/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592895117830" />
+    <state width="1384" height="313" key="GridCell.Tab.0.right/0.0.1536.864/-1920.0.1280.720@0.0.1536.864" timestamp="1592895856803" />
     <state x="492" y="132" key="RollbackChangesDialog" timestamp="1592895249049">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
