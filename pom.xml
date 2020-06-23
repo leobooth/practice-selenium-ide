@@ -12,6 +12,9 @@
     <java.version>1.8</java.version>
     <selenium.version>4.0.0-alpha-3</selenium.version>
     <junit.version>3.12</junit.version>
+    <webdriver.chrome>
+        drivers\chromedriver\v83.0.4103.39\chromedriver_win32\chromedriver.exe
+    </webdriver.chrome>
   </properties>
   <dependencies>
     <dependency>
@@ -43,6 +46,9 @@
         <version>2.21.0</version>
         <configuration>
           <systemPropertyVariables>
+            <webdriver.chrome.driver>
+              ${webdriver.chrome}
+            </webdriver.chrome.driver>>
           </systemPropertyVariables>
         </configuration>
       </plugin>

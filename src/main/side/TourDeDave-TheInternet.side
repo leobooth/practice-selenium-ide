@@ -1,0 +1,95 @@
+{
+  "id": "7b292ec7-06c2-4a5e-9831-f04470797ff1",
+  "version": "2.0",
+  "name": "TourDeDave-TheInternet",
+  "url": "https://the-internet.herokuapp.com",
+  "tests": [{
+    "id": "4d47ef9d-1bea-45c6-928f-1e93abf306de",
+    "name": "AddRemoveElements",
+    "commands": [{
+      "id": "aa580878-d26f-4b5b-9968-6ffde08ca907",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "223deb3c-edee-4b77-933d-a7253e5fd485",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add/Remove Elements",
+      "targets": [
+        ["linkText=Add/Remove Elements", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Add/Remove Elements')]", "xpath:link"],
+        ["xpath=//div[@id='content']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/add_remove_elements/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add/Remove Elements')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c45f6c3-94c2-455b-8752-4b898f2c285c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@onclick='addElement()']",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@onclick='addElement()']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Element')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5eb4ba90-e890-4249-99cb-2ab5a8d2b494",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//button[@onclick='deleteElement()']",
+      "targets": [
+        ["css=.added-manually", "css:finder"],
+        ["xpath=//button[@onclick='deleteElement()']", "xpath:attributes"],
+        ["xpath=//div[@id='elements']/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f925e8a-db86-471a-803c-dc0248e4f1a7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@onclick='deleteElement()']",
+      "targets": [
+        ["css=.added-manually", "css:finder"],
+        ["xpath=//button[@onclick='deleteElement()']", "xpath:attributes"],
+        ["xpath=//div[@id='elements']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e95e98b1-e09f-47af-b944-9ab953233af9",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "xpath=//button[@onclick='deleteElement()']",
+      "targets": [
+        ["css=.added-manually", "css:finder"],
+        ["xpath=//button[@onclick='deleteElement()']", "xpath:attributes"],
+        ["xpath=//div[@id='elements']/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d19d467c-eaec-47bf-9f03-f2696d39a228",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4d47ef9d-1bea-45c6-928f-1e93abf306de"]
+  }],
+  "urls": ["https://the-internet.herokuapp.com/"],
+  "plugins": []
+}
